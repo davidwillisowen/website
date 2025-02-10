@@ -1,0 +1,7 @@
+[submodule "davidwillisowen/public"]
+	path = davidwillisowen/public
+	url = https://github.com/davidwillisowen/davidwillisowen.github.io.git
+	branch = main
+[submodule "dwo/themes/hextra"]
+	path = dwo/themes/hextra
+	url = https://github.com/imfing/hextra.git

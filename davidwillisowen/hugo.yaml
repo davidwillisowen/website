@@ -1,0 +1,51 @@
+baseURL: "https://davidwillisowen.github.io"
+title: "David Willis-Owen"
+theme: "hextra"
+languageCode: "en-us"
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+params:
+
+  theme:
+    default: system
+    displayToggle: true
+
+  navbar:
+    displayTitle: true
+    displayLogo: false
+
+  favicon:
+    "favicon.ico"
+
+
+menu:
+  main:
+    - name: About
+      pageRef: /about
+      params:
+        icon: user
+      weight: 1
+    - name: Resume
+      pageRef: /resume
+      params:
+        icon: book-open
+      weight: 2
+    - name: Projects
+      pageRef: /projects
+      params:
+        icon: code
+      weight: 3
+    - name: Socials
+      pageRef: /socials
+      params:
+        icon: rss
+      weight: 4
+    - name: Contact
+      pageRef: /contact
+      params:
+        icon: chat
+      weight: 5
