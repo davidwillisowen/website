@@ -1,5 +1,5 @@
 +++
-title = "Contact"
+title = "Connect"
 date = "2025-02-09T00:00:00Z"
 +++
 
